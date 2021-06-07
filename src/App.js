@@ -3,7 +3,7 @@ import ProfileCard from "./components/Profile";
 import Profile from "./index.js";
 import user from "./user.json";
 
-const App = () => {
+const App = () => (
   //   <>
   //     <Profile
   //       name={user.name}
@@ -25,16 +25,15 @@ const App = () => {
   //     likes: 1308,
   //   },
   // };
-  return (
-    <div>
-      <h2>Profile</h2>
-      <ProfileCard
-        name="Jacques Gluke"
-        tag="jgluke"
-        location="Ocho Rios, Jamaica"
-        avatar="https://www.flaticon.com/svg/static/icons/svg/3784/3784184.svg"
-      />
-    </div>
-  );
-};
+  <div>
+    <ProfileCard
+      name={user.name}
+      tag={user.tag}
+      location={user.location}
+      avatar={user.avatar}
+      stats={user.stats}
+    />
+  </div>
+);
+
 export default App;
