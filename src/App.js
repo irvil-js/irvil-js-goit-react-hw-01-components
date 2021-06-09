@@ -1,6 +1,5 @@
 import React from "react";
-import ProfileCard from "./components/Profile";
-import Profile from "./index.js";
+import ProfileCard from "./components/Profile/Profile";
 import user from "./user.json";
 
 const App = () => (
