@@ -1,30 +1,11 @@
 import React from "react";
 import ProfileCard from "./components/Profile/Profile";
 import user from "./components/Profile/user.json";
+import Statistics from "./components/Statistics/Statistics";
+import statisticalData from "./components/Statistics/statistical-data.json";
 
 const App = () => (
-  //   <>
-  //     <Profile
-  //       name={user.name}
-  //       tag={user.tag}
-  //       location={user.location}
-  //       avatar={user.avatar}
-  //       stats={user.stats}
-  //     />
-  //   </>
-
-  // const user = {
-  //   name: "Jacques Gluke",
-  //   tag: "jgluke",
-  //   location: "Ocho Rios, Jamaica",
-  //   avatar: "https://www.flaticon.com/svg/static/icons/svg/3784/3784184.svg",
-  //   stats: {
-  //     followers: 5603,
-  //     views: 4827,
-  //     likes: 1308,
-  //   },
-  // };
-  <div>
+  <>
     <ProfileCard
       name={user.name}
       tag={user.tag}
@@ -32,7 +13,9 @@ const App = () => (
       avatar={user.avatar}
       stats={user.stats}
     />
-  </div>
+
+    <Statistics title="Upload stats" stats={statisticalData} />
+  </>
 );
 
 export default App;
