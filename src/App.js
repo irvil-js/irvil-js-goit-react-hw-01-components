@@ -19,7 +19,7 @@ const App = () => (
     />
     <Statistics title="Upload stats" stats={statisticalData} />
     <FriendList friends={friends} />
-    <TransactionHistory items={transactions} />;
+    <TransactionHistory items={transactions} />
   </>
 );
 

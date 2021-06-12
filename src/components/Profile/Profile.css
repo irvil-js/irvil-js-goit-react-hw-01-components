@@ -11,20 +11,19 @@ html {
 }
 
 .profile {
-  width: 250px;
+  width: 425px;
   text-align: center;
   margin: auto;
   border: solid 1px #d8e0ea;
 }
 
 .description {
-  width: 250px;
+  width: 425px;
   height: auto;
 }
 
 .avatar {
-  width: 128px;
-  height: 128px;
+  height: auto;
   border-radius: 50%;
   overflow: hidden;
   text-align: center;
@@ -32,21 +31,21 @@ html {
 }
 
 .name {
-  font-size: 18px;
+  font-size: 20px;
   color: #333333;
   font-weight: 700;
   margin-top: 30px;
 }
 
 .tag {
-  font-size: 14px;
+  font-size: 16px;
   color: #666666;
   text-align: center;
   margin-top: 10px;
 }
 
 .location {
-  font-size: 14px;
+  font-size: 16px;
   color: #97a2ae;
   line-height: 32px;
   margin-top: 10px;
@@ -56,6 +55,8 @@ html {
 .stats {
   display: flex;
   justify-content: space-evenly;
+  padding-top: 15px;
+  padding-bottom: 15px;
   list-style: none;
   background-color: #f3f6f9;
   border-radius: 0 0 5px 5px;
@@ -69,14 +70,13 @@ html {
 }
 
 .label {
+  margin-top: 0;
   color: #97a2ae;
-  padding-top: 22px;
-  font-size: 12px;
+  font-size: 14px;
   display: flex;
 }
 
 .quantity {
-  padding-bottom: 22px;
   line-height: 1.2;
   font-weight: bold;
   font-size: 14px;

@@ -6,7 +6,12 @@ const ProfileCard = ({ name, tag, location, avatar, stats }) => {
   return (
     <div className="profile">
       <div className="description">
-        <img src={avatar} alt="Аватар пользователя" className="avatar" />
+        <img
+          src={avatar}
+          alt="Аватар пользователя"
+          className="avatar"
+          width="328"
+        />
         <p className="name">{name}</p>
         <p className="tag">@{tag}</p>
         <p className="location">{location}</p>

@@ -1,11 +1,11 @@
 .friend_list {
   width: 425px;
-  height: 450px;
+  height: auto;
   margin: auto;
   border: solid 1px rgb(211, 221, 221);
 }
 
-.item {
+.item_friend {
   display: flex;
   align-items: center;
   margin: 20px;
@@ -34,6 +34,8 @@
 }
 
 .name {
+  margin-top: auto;
+  margin-bottom: auto;
   font-size: 24px;
   font-weight: 600;
 }
