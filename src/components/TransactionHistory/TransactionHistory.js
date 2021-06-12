@@ -1,9 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import "./TransactionHistory.css";
+import "./TransactionHistory.css";
 
 const TransactionHistory = ({ items }) => (
-  <table className="transactionHistory">
+  <table className="transaction-history">
     <thead>
       <tr>
         <th>Type</th>
